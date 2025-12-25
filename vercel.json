@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/b2api/:path*",
+      "destination": "https://awx.pro/b2api/:path*"
+    }
+  ]
+}
