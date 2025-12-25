@@ -25,6 +25,7 @@ export const ValueBox = styled(Box)(({ theme }) => ({
 export const FlexBox = styled(Box)(() => ({ flex: 1 }));
 
 export const SmallLabel = styled(Typography)(({ theme }) => ({
+  display: flex,
   fontSize: 12,
   color: theme.palette.text.secondary,
   [theme.breakpoints.down('sm')]: { fontSize: 9 }
