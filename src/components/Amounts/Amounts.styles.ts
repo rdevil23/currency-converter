@@ -19,6 +19,7 @@ export const ValueBox = styled(Box)(({ theme }) => ({
   padding: theme.spacing(1),
   display: 'flex',
   flexDirection: 'column',
+  alignItems: 'center',
   gap: 6
 }));
 
